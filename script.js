@@ -72,10 +72,10 @@ console.log("Sum: " + sum);
 //         (No rounding needed)
 let average = sum / numbers.length;
 console.log("Average: " + average);
-// STEP 8: Count how many numbers are even.
+// STEP 8: Count how may numbers are even.
 //         A number is even if number % 2 equals 0.
 //         Use a for loop and an if statement.
-//         Print: console.log("Even count: " + count)
+//         Print:  console.log("Even count: " + count)
 let count = 0;
 for (let i = 0; i < numbers.length; i++) {
 if (numbers[i] % 2 === 0) {
