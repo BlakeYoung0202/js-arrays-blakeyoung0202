@@ -50,14 +50,14 @@ numbers.push(num);
 //         HINT: Start with an empty string. In the loop,
 //         add the number. If it's not the last number,
 //         also add ", " after it.
-let numbersString = "";
+let yourString = "";
 for (let i = 0; i < numbers.length; i++) {
-numbersString += numbers[i];
+yourString += numbers[i];
 if (i < numbers.length - 1) {
-numbersString += ", ";
+yourString += ", ";
 }
 }
-console.log("Numbers: " + numbersString);
+console.log("Numbers: " + yourString);
 // STEP 6: Calculate the sum of all numbers.
 //         Use a for loop to add each number to a running total.
 //         Print: console.log("Sum: " + sum)
