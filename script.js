@@ -84,7 +84,7 @@ count++;
 }
 console.log("Even count: " + count);
 // STEP 9: Find the largest number.
-//         Start with the first number as the largest.
+//         Start ith the first number as the largest.
 //         Loop through the rest and update if you find a bigger one.
 //         Print: console.log("Largest: " + largest)
 let largest = numbers[0];
