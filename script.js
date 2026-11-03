@@ -59,7 +59,7 @@ yourString += ", ";
 }
 console.log("Numbers: " + yourString);
 // STEP 6: Calculate the sum of all numbers.
-//         Use a for loop to add each number to a running total.
+// hi         Use a for loop to add each number to a running total.
 //         Print: console.log("Sum: " + sum)
 let sum = 0;
 for (let i = 0; i < numbers.length; i++) {
